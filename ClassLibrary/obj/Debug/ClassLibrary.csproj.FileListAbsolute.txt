@@ -1,0 +1,6 @@
+C:\Users\R\source\repos\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\R\source\repos\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\R\source\repos\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\R\source\repos\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\R\source\repos\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\R\source\repos\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
