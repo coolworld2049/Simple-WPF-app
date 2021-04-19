@@ -1,0 +1,17 @@
+C:\Users\R\source\repos\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\R\source\repos\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\R\source\repos\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\R\source\repos\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\R\source\repos\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\R\source\repos\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+E:\repos\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\repos\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\repos\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\repos\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\repos\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+H:\repos\ClassLibrary\bin\Debug\ClassLibrary.dll
+H:\repos\ClassLibrary\bin\Debug\ClassLibrary.pdb
+H:\repos\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+H:\repos\ClassLibrary\obj\Debug\ClassLibrary.dll
+H:\repos\ClassLibrary\obj\Debug\ClassLibrary.pdb
+H:\repos\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
