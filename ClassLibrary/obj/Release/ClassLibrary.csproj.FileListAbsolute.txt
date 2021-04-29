@@ -1,7 +1,0 @@
-H:\repos\ClassLibrary\bin\Release\ClassLibrary.dll
-H:\repos\ClassLibrary\bin\Release\ClassLibrary.pdb
-H:\repos\ClassLibrary\obj\Release\ClassLibrary.csprojAssemblyReference.cache
-H:\repos\ClassLibrary\obj\Release\ClassLibrary.csproj.CoreCompileInputs.cache
-H:\repos\ClassLibrary\obj\Release\ClassLibrary.dll
-H:\repos\ClassLibrary\obj\Release\ClassLibrary.pdb
-H:\repos\ClassLibrary\obj\Release\ClassLibrary.g.resources
