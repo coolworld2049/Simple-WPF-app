@@ -1,0 +1,340 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SteamAccount"
+        xmlns:ClassLibrary="clr-namespace:ClassLibrary;assembly=ClassLibrary" x:Class="SteamAccount.MainWindow"
+        mc:Ignorable="d"
+        Title="Steam Account" Height="500" Width="900"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="NoResize">
+    <Grid Margin="0,0,0,1.5">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="194*"/>
+            <ColumnDefinition Width="118*"/>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="112*"/>
+            <ColumnDefinition Width="110*"/>
+            <ColumnDefinition Width="225*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="329"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+
+        <Image Source="/Pictures/pixel.jpg" Margin="0,-4.5,0,-21.5" Grid.RowSpan="3" Stretch="Fill" Grid.ColumnSpan="9" OpacityMask="Black" >
+            <Image.Effect>
+                <BlurEffect Radius="8"/>
+            </Image.Effect>
+        </Image>
+
+        <Image Source="/Pictures/Deep Space.jpg"
+               Grid.ColumnSpan="9"
+               Height="380.5"
+               VerticalAlignment="Bottom"
+               Stretch="None"
+               Grid.RowSpan="2"
+               Grid.Row="1"
+               Margin="10,0,10,-1.5"
+               />
+
+        <Label Grid.ColumnSpan="9"
+ 
+               Content=" Account informations and other"
+                   Height="71.5" 
+                   VerticalAlignment="Center" 
+                   FontSize="55" 
+                   FontFamily="/SteamAccount;component/Fonts/#Dosis ExtraLight" 
+               Margin="10,10,10,307.5" Foreground="White" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"
+                   >
+            <Label.Background>
+                <ImageBrush ImageSource="Blade Runner.jpg" Stretch="UniformToFill">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleY="-1" ScaleX="1.05"/>
+                            <SkewTransform AngleY="0" AngleX="3" CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="0" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Label.Background>
+        </Label>
+
+
+        <Image Source="/Pictures/joi.jpg" Margin="-152,36.877,151,0" Grid.ColumnSpan="9" Grid.Row="1" Grid.RowSpan="2" />
+
+        <Button x:Name="PlaySong" 
+            Content="Play song" 
+            Height="25"
+            VerticalAlignment="Top" FontSize="12"
+            Grid.Column="5" 
+                Click="PlaySong_Click" 
+                Margin="32.583,25,0,0"
+                Grid.ColumnSpan="3"
+                Grid.Row="2" HorizontalAlignment="Left" Width="216"
+                />
+
+        <Button x:Name="PlayVideo" Content="Play video"
+            HorizontalAlignment="Left" 
+            Height="25"
+            Margin="97,25,0,0"
+            VerticalAlignment="Top" 
+            Width="216" FontSize="12"
+            Grid.Column="7" Click="PlayVideo_Click" Grid.ColumnSpan="2" Grid.Row="2"
+                />
+        <TabControl Grid.ColumnSpan="4"
+                    Margin="32.583,36.877,22,41.216"
+                    Grid.Column="5" Grid.Row="1" Grid.RowSpan="2">
+
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="50"
+                                   FontFamily="Fonts/Dosis Bold" 
+                                   FontSize="12"
+                                   ><Run Text="Tracklist"/></TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <StackPanel>
+                    <TextBox x:Name="TabTrackList" 
+                             Margin="19,0,88,-254"
+                             FontFamily="Fonts/Dosis Bold"
+                             FontSize="12" 
+                             Grid.RowSpan="2"
+                             Loaded="TabTrackList_Loaded" 
+                             Height="269.614" 
+                             TextChanged="TabTrackList_TextChanged"/>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="TextBlockTrackList"
+                                   Width="50" 
+                                   FontFamily="Fonts/Dosis Bold"
+                                   FontSize="12"
+                                   MouseDown="TextBlockTrackList_MouseDown"><Run Text="Videolist"/></TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <StackPanel>
+                    <TextBox x:Name="TabVideoList" 
+                             Height="269.606" 
+                             Margin="18.75,0,88,0"
+                             FontFamily="Fonts/Dosis Bold"
+                             FontSize="12" 
+                             TextChanged="TabVideoList_TextChanged"
+                             />
+                </StackPanel>
+            </TabItem>
+
+
+        </TabControl>
+        <Button x:Name="ButtonSave" 
+                Content="Save" 
+            Height="25"
+            Margin="117.583,66.841,31.417,0"
+            VerticalAlignment="Top"
+            FontFamily="Fonts/Dosis Bold" 
+            FontSize="12"
+            Grid.Column="8" Grid.Row="1" 
+                />
+        <CheckBox x:Name="CheckBoxTrackList_1"
+                  Grid.Column="5" 
+                  HorizontalAlignment="Left"
+                  Height="16" 
+                  Margin="38.333,62.752,0,0" 
+                  VerticalAlignment="Top" 
+                  Width="12.667" Grid.Row="1" 
+                  />
+        <CheckBox x:Name="CheckBoxTrackList_2"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,77.627,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+            />
+        <CheckBox x:Name="CheckBoxTrackList_3"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,92.252,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+            />
+        <CheckBox x:Name="CheckBoxTrackList_4"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,107.002,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+                  />
+        <CheckBox x:Name="CheckBoxTrackList_5"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,121.752,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+            />
+        <CheckBox x:Name="CheckBoxTrackList_6"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,136.689,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+            />
+        <CheckBox x:Name="CheckBoxTrackList_7"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,151.877,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+                  />
+        <CheckBox x:Name="CheckBoxTrackList_8"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,166.752,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+            />
+        <CheckBox x:Name="CheckBoxTrackList_9"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,181.377,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+            />
+        <CheckBox x:Name="CheckBoxTrackList_10"
+            Grid.Column="5" 
+            HorizontalAlignment="Left"
+            Height="16" 
+            Margin="38.333,196.127,0,0" 
+            VerticalAlignment="Top" 
+            Width="12.667" Grid.Row="1" 
+                  />
+        <TextBox x:Name="TextBox_0" 
+            VerticalAlignment="Bottom"
+            Height="26.012" 
+            Margin="0,0,12.058,267.363" 
+            TextWrapping="Wrap" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.Row="1" Grid.Column="1"
+                 />
+        <TextBox x:Name="TextBoxMainInfo"
+            Height="101.036" 
+            Margin="0,66.841,10,0"
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top"
+            FontSize="14" 
+            Grid.ColumnSpan="3" Grid.Row="1" Grid.Column="1"
+                 />
+        <Button x:Name="ButtonComparePlayer" Content="Compare Players"
+            HorizontalAlignment="Left" 
+            Height="26.012"
+            Margin="0,23.988,0,0"
+            VerticalAlignment="Top" 
+            Width="363" 
+            FontFamily="Fonts/Dosis Bold" FontSize="12" Click="ButtonComparePlayer_Click" Grid.ColumnSpan="3" Grid.Row="2" Grid.Column="1"
+               />
+        <TextBox x:Name="TextBoxCompare"
+            HorizontalAlignment="Left" 
+            Height="85.844" 
+            Margin="0,261.94,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="363"
+            FontFamily="Fonts/Dosis Light" FontSize="12" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="2" Background="White" Grid.Column="1"
+                 />
+        <Button x:Name="ButtonGetplayerlink" Content="Get player link"
+            HorizontalAlignment="Left" 
+            Height="26.012"
+            Margin="83.471,35.625,0,0"
+            VerticalAlignment="Top" 
+            Width="85.529" FontSize="12"
+            Click="ButtonGetplayerlink_Click" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1"
+                />
+        <ComboBox 
+            SelectedIndex="0"
+            x:Name="ComboBoxPlayer"
+            Margin="186.942,35.625,39.529,267.363" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" 
+                  >
+
+            <ComboBoxItem Content="player 1"
+                x:Name="p1" 
+                GotFocus="p1_GotFocus" />
+            <ComboBoxItem Content="player 2"
+                x:Name="p2"
+                GotFocus="p2_GotFocus"/>
+            <ComboBoxItem Content="player 3"
+                x:Name="p3"
+                GotFocus="p3_GotFocus"/>
+            <ComboBoxItem Content="player 4"
+                x:Name="p4"
+                GotFocus="p4_GotFocus"/>
+            <ComboBoxItem Content="player 5"
+                x:Name="p5"
+                Visibility="Collapsed"
+                />
+            <ComboBoxItem Content="player 6"
+                x:Name="p6"
+                Visibility="Collapsed"
+                />
+        </ComboBox>
+
+        <TextBox x:Name="TextBoxAddPlayer" 
+            HorizontalAlignment="Right"
+            Height="83.656" 
+            Margin="0,172.877,39.529,0"
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top"
+            Width="272.471" 
+            FontSize="14"
+            Grid.ColumnSpan="2" Grid.Row="1" Grid.Column="1"
+                 
+                 />
+
+
+        <Button x:Name="SavePlayer"
+            Content="Save player"
+            Margin="83.471,172.877,0,0" FontSize="12"
+            Grid.Column="2"
+            Click="SavePlayer_Click" Grid.ColumnSpan="2" Grid.Row="1" Height="46.668" VerticalAlignment="Top" HorizontalAlignment="Left" Width="85.529"
+                />
+        <RadioButton x:Name="AddPlayer5" Content="Аdd player 5"
+            HorizontalAlignment="Left"
+            Height="16.27"
+            Margin="83.471,224.545,0,0"
+            VerticalAlignment="Top"
+            Width="85.529" 
+            Grid.Column="2" 
+            Foreground="Black" 
+                     Checked="AddPlayer5_Checked" FontSize="12" Grid.ColumnSpan="2" Grid.Row="1"
+                     />
+        <RadioButton x:Name="AddPlayer6" Content="Add player 6"
+            HorizontalAlignment="Left" 
+            Height="15.583"
+            Margin="83.471,240.815,0,0" 
+            VerticalAlignment="Top"
+            Width="85.529" Grid.Column="2"
+            Foreground="Black" Checked="AddPlayer6_Checked" 
+                     FontSize="12" Grid.ColumnSpan="2" Grid.Row="1"
+                     />
+
+
+    </Grid>
+
+</Window>
