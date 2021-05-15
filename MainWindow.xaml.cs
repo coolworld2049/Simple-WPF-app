@@ -5,7 +5,6 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-
 namespace SteamAccount
 {
     /// <summary>
@@ -17,6 +16,7 @@ namespace SteamAccount
         public MainWindow()
         {
             InitializeComponent();
+            //CosturaUtility.Initialize();
         }
 
         //основная информация о 4 игроках
@@ -43,6 +43,19 @@ namespace SteamAccount
             TextBox_0.Text = Data.ID_Player("11", "77", 55);
             TextBoxMainInfo.Text = Player.PrintMainInfo(4, "default", 1, "0", 10, "https://");
         }
+
+        private void p5_GotFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox_0.Text = Data.ID_Player("11", "77", 55);
+            TextBoxMainInfo.Text = Player.PrintMainInfo(5, "default", 1, "0", 10, "https://");
+        }
+
+        private void p6_GotFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox_0.Text = Data.ID_Player("11", "77", 55);
+            TextBoxMainInfo.Text = Player.PrintMainInfo(6, "default", 1, "0", 10, "https://");
+        }
+
 
         //добавление нового игрока
         private void AddPlayer5_Checked(object sender, RoutedEventArgs e)
@@ -79,20 +92,14 @@ namespace SteamAccount
             if (AddPlayer5.IsChecked == true)
             {
                 AddNewPlayerWrite(5);
-
-                TextBox_0.Text = Data.ID_Player("11", "def", 55);
                 p5.Visibility = Visibility.Visible;
-                TextBoxMainInfo.Text = Player.PrintMainInfo(5, "default", 1, "0", 10, "https://");
             }
             AddPlayer5.IsChecked = false;
 
             if (AddPlayer6.IsChecked == true)
             {
                 AddNewPlayerWrite(6);
-
-                TextBox_0.Text = Data.ID_Player("11", "def", 55);
                 p6.Visibility = Visibility.Visible;
-                TextBoxMainInfo.Text = Player.PrintMainInfo(6, "default", 1, "0", 10, "https://");
             }
             AddPlayer6.IsChecked = false;
         }
@@ -355,7 +362,6 @@ namespace SteamAccount
                 sw1.Close();
             }
         }
-
 
     }
 }
