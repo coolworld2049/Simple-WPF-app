@@ -79,7 +79,7 @@ namespace ClassLibrary
         public static string PrintMainInfoGetValue(object count_player, string nickname, int number_of_matches_won, string expensive_weapon_skins,
             int price_weapon_skins_rub, string link_to_the_Steam_account)
         {
-            TextReader reader = new StreamReader($@"H:\repos\ClassLibrary\Datas\{count_player}.txt");
+            TextReader reader = new StreamReader(Directory.GetCurrentDirectory() + $@"\Datas\{count_player}.txt");
 
             nickname = Convert.ToString(reader.ReadLine());
             number_of_matches_won = Convert.ToInt32(reader.ReadLine());
@@ -102,7 +102,7 @@ namespace ClassLibrary
         public static string PrintMainInfo(object count_player, string nickname, int number_of_matches_won, string expensive_weapon_skins,
             int price_weapon_skins_rub, string link_to_the_Steam_account) // виртуальный метод
         {
-            using (TextReader reader = new StreamReader($@"H:\repos\ClassLibrary\Datas\{count_player}.txt"))
+            using (TextReader reader = new StreamReader($@"Directory.GetCurrentDirectory() + \Datas\{count_player}.txt"))
             {
                 nickname = Convert.ToString(reader.ReadLine());
                 number_of_matches_won = Convert.ToInt32(reader.ReadLine());
@@ -151,7 +151,7 @@ namespace ClassLibrary
 
         public void Add_new_player(int name_file)
         {
-            StreamWriter sw = new StreamWriter($@"H:\repos\ClassLibrary\{name_file}.txt");
+            StreamWriter sw = new StreamWriter(Directory.GetCurrentDirectory() + $@"\ClassLibrary\{name_file}.txt");
             sw.WriteLine(nickname);
             sw.WriteLine(number_of_matches_won);
             sw.WriteLine(price_weapon_skins_rub);
@@ -224,7 +224,7 @@ namespace ClassLibrary
 
         public void OpenYouTubeLink(int tap)
         {
-            using (TextReader reader = new StreamReader($@"H:\repos\ClassLibrary\Datas\link to video.txt"))
+            using (TextReader reader = new StreamReader(Directory.GetCurrentDirectory() + $@"\Datas\link to video.txt"))
             {
                 link_to_video1 = reader.ReadLine();
                 link_to_video2 = reader.ReadLine();
@@ -267,7 +267,7 @@ namespace ClassLibrary
 
         public static string ReadYouTubeLink(string getVideo)
         {
-            using (TextReader reader = new StreamReader($@"H:\repos\ClassLibrary\Datas\link to video.txt"))
+            using (TextReader reader = new StreamReader(Directory.GetCurrentDirectory() + $@"\Datas\link to video.txt"))
             {
                 getVideo = reader.ReadToEnd();
             }
@@ -291,7 +291,7 @@ namespace ClassLibrary
 
         public static string ReadSongName(string getTrack) //чтение названий песен из файла
         {
-            using (TextReader reader = new StreamReader($@"H:\repos\ClassLibrary\Datas\song_link.txt"))
+            using (TextReader reader = new StreamReader(Directory.GetCurrentDirectory() + $@"\Datas\song_link.txt"))
             {
                 getTrack = reader.ReadToEnd();
                 return getTrack;
@@ -302,7 +302,7 @@ namespace ClassLibrary
         {
             ProcessStartInfo prs = new ProcessStartInfo(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe");
 
-            string[] getTrackNew = File.ReadAllLines($@"H:\repos\ClassLibrary\Datas\song_link.txt");
+            string[] getTrackNew = File.ReadAllLines(Directory.GetCurrentDirectory() + $@"\Datas\song_link.txt");
 
             prs.Arguments = "https://www.google.com/search?q=" + getTrackNew[i];
             Process.Start(prs.Arguments);

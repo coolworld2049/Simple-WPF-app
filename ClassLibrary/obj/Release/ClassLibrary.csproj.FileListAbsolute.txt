@@ -5,3 +5,10 @@ H:\repos\ClassLibrary\obj\Release\ClassLibrary.dll
 H:\repos\ClassLibrary\obj\Release\ClassLibrary.pdb
 H:\repos\ClassLibrary\obj\Release\ClassLibrary.csprojAssemblyReference.cache
 H:\repos\ClassLibrary\obj\Release\ClassLibrary.g.resources
+C:\Users\R\Downloads\WPF SteamAccount\ClassLibrary\bin\Release\ClassLibrary.dll
+C:\Users\R\Downloads\WPF SteamAccount\ClassLibrary\bin\Release\ClassLibrary.pdb
+C:\Users\R\Downloads\WPF SteamAccount\ClassLibrary\obj\Release\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\R\Downloads\WPF SteamAccount\ClassLibrary\obj\Release\ClassLibrary.g.resources
+C:\Users\R\Downloads\WPF SteamAccount\ClassLibrary\obj\Release\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\R\Downloads\WPF SteamAccount\ClassLibrary\obj\Release\ClassLibrary.dll
+C:\Users\R\Downloads\WPF SteamAccount\ClassLibrary\obj\Release\ClassLibrary.pdb

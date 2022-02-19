@@ -1,0 +1,46 @@
+H:\repos\SteamAccount\bin\Release\SteamAccount.exe.config
+H:\repos\SteamAccount\bin\Release\SteamAccount.exe
+H:\repos\SteamAccount\bin\Release\SteamAccount.pdb
+H:\repos\SteamAccount\obj\Release\Simple Styles.baml
+H:\repos\SteamAccount\obj\Release\MainWindow.g.cs
+H:\repos\SteamAccount\obj\Release\App.g.cs
+H:\repos\SteamAccount\obj\Release\SteamAccount_MarkupCompile.cache
+H:\repos\SteamAccount\obj\Release\SteamAccount_MarkupCompile.lref
+H:\repos\SteamAccount\obj\Release\MainWindow.baml
+H:\repos\SteamAccount\obj\Release\SteamAccount.g.resources
+H:\repos\SteamAccount\obj\Release\SteamAccount.Properties.Resources.resources
+H:\repos\SteamAccount\obj\Release\SteamAccount.csproj.GenerateResource.cache
+H:\repos\SteamAccount\obj\Release\SteamAccount.csproj.CoreCompileInputs.cache
+H:\repos\SteamAccount\obj\Release\SteamAccount.exe
+H:\repos\SteamAccount\obj\Release\SteamAccount.pdb
+H:\repos\SteamAccount\bin\Release\SteamAccount.exe.manifest
+H:\repos\SteamAccount\bin\Release\SteamAccount.application
+H:\repos\SteamAccount\obj\Release\SteamAccount.exe.manifest
+H:\repos\SteamAccount\obj\Release\SteamAccount.application
+H:\repos\SteamAccount\obj\Release\SteamAccount.csprojAssemblyReference.cache
+H:\repos\SteamAccount\obj\Release\SteamAccount.csproj.CopyComplete
+H:\repos\SteamAccount\bin\Release\System.Diagnostics.DiagnosticSource.xml
+H:\repos\SteamAccount\obj\Release\SteamAccount.csproj.Fody.CopyLocal.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Release\SteamAccount.exe.config
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Release\SteamAccount.exe.manifest
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Release\SteamAccount.application
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Release\SteamAccount.exe
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Release\SteamAccount.pdb
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.csproj.AssemblyReference.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\Simple Styles.baml
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\MainWindow.g.cs
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\App.g.cs
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount_MarkupCompile.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount_MarkupCompile.lref
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\MainWindow.baml
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.g.resources
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.Properties.Resources.resources
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.csproj.GenerateResource.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.csproj.CoreCompileInputs.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.csproj.Fody.CopyLocal.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.exe.manifest
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.application
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.csproj.CopyComplete
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.exe
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Release\SteamAccount.pdb

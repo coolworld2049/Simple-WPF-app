@@ -1,0 +1,85 @@
+C:\Users\R\source\repos\SteamAccount\bin\Debug\SteamAccount.exe.config
+C:\Users\R\source\repos\SteamAccount\bin\Debug\SteamAccount.exe
+C:\Users\R\source\repos\SteamAccount\bin\Debug\SteamAccount.pdb
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount.csprojAssemblyReference.cache
+C:\Users\R\source\repos\SteamAccount\obj\Debug\MainWindow.g.cs
+C:\Users\R\source\repos\SteamAccount\obj\Debug\App.g.cs
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount_MarkupCompile.cache
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount_MarkupCompile.lref
+C:\Users\R\source\repos\SteamAccount\obj\Debug\MainWindow.baml
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount.g.resources
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount.Properties.Resources.resources
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount.csproj.GenerateResource.cache
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount.csproj.CoreCompileInputs.cache
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount.exe
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount.pdb
+C:\Users\R\source\repos\SteamAccount\bin\Debug\ClassLibrary.dll
+C:\Users\R\source\repos\SteamAccount\bin\Debug\ClassLibrary0.dll
+C:\Users\R\source\repos\SteamAccount\bin\Debug\ClassLibrary0.pdb
+C:\Users\R\source\repos\SteamAccount\bin\Debug\ClassLibrary.pdb
+C:\Users\R\source\repos\SteamAccount\obj\Debug\SteamAccount.csproj.CopyComplete
+E:\repos\SteamAccount\obj\Debug\SteamAccount.csprojAssemblyReference.cache
+E:\repos\SteamAccount\obj\Debug\MainWindow.g.cs
+E:\repos\SteamAccount\obj\Debug\App.g.cs
+E:\repos\SteamAccount\obj\Debug\SteamAccount_MarkupCompile.cache
+E:\repos\SteamAccount\obj\Debug\SteamAccount_MarkupCompile.lref
+E:\repos\SteamAccount\obj\Debug\SteamAccount.exe
+E:\repos\SteamAccount\obj\Debug\SteamAccount.pdb
+E:\repos\SteamAccount\bin\Debug\SteamAccount.exe.config
+E:\repos\SteamAccount\bin\Debug\SteamAccount.exe
+E:\repos\SteamAccount\bin\Debug\SteamAccount.pdb
+E:\repos\SteamAccount\bin\Debug\ClassLibrary.dll
+E:\repos\SteamAccount\bin\Debug\ClassLibrary0.dll
+E:\repos\SteamAccount\bin\Debug\ClassLibrary0.pdb
+E:\repos\SteamAccount\bin\Debug\ClassLibrary.pdb
+E:\repos\SteamAccount\obj\Debug\MainWindow.baml
+E:\repos\SteamAccount\obj\Debug\SteamAccount.g.resources
+E:\repos\SteamAccount\obj\Debug\SteamAccount.Properties.Resources.resources
+E:\repos\SteamAccount\obj\Debug\SteamAccount.csproj.GenerateResource.cache
+E:\repos\SteamAccount\obj\Debug\SteamAccount.csproj.CopyComplete
+H:\repos\SteamAccount\bin\Debug\SteamAccount.exe.config
+H:\repos\SteamAccount\bin\Debug\SteamAccount.exe
+H:\repos\SteamAccount\bin\Debug\SteamAccount.pdb
+H:\repos\SteamAccount\bin\Debug\ClassLibrary.dll
+H:\repos\SteamAccount\bin\Debug\ClassLibrary.pdb
+H:\repos\SteamAccount\obj\Debug\SteamAccount.csprojAssemblyReference.cache
+H:\repos\SteamAccount\obj\Debug\MainWindow.g.cs
+H:\repos\SteamAccount\obj\Debug\App.g.cs
+H:\repos\SteamAccount\obj\Debug\SteamAccount_MarkupCompile.cache
+H:\repos\SteamAccount\obj\Debug\SteamAccount_MarkupCompile.lref
+H:\repos\SteamAccount\obj\Debug\MainWindow.baml
+H:\repos\SteamAccount\obj\Debug\SteamAccount.g.resources
+H:\repos\SteamAccount\obj\Debug\SteamAccount.Properties.Resources.resources
+H:\repos\SteamAccount\obj\Debug\SteamAccount.csproj.GenerateResource.cache
+H:\repos\SteamAccount\obj\Debug\SteamAccount.csproj.CoreCompileInputs.cache
+H:\repos\SteamAccount\obj\Debug\SteamAccount.csproj.CopyComplete
+H:\repos\SteamAccount\obj\Debug\SteamAccount.exe
+H:\repos\SteamAccount\obj\Debug\SteamAccount.pdb
+H:\repos\SteamAccount\obj\Debug\Simple Styles.baml
+H:\repos\SteamAccount\bin\Debug\SteamAccount.exe.manifest
+H:\repos\SteamAccount\bin\Debug\SteamAccount.application
+H:\repos\SteamAccount\obj\Debug\SteamAccount.exe.manifest
+H:\repos\SteamAccount\obj\Debug\SteamAccount.application
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.csproj.AssemblyReference.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\Simple Styles.baml
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\MainWindow.g.cs
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\App.g.cs
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount_MarkupCompile.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount_MarkupCompile.lref
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\MainWindow.baml
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.g.resources
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.pdb
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Debug\SteamAccount.exe.config
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Debug\SteamAccount.exe.manifest
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Debug\SteamAccount.application
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Debug\SteamAccount.exe
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Debug\SteamAccount.pdb
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.Properties.Resources.resources
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.csproj.GenerateResource.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.csproj.CoreCompileInputs.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.csproj.Fody.CopyLocal.cache
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.exe.manifest
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.application
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.csproj.CopyComplete
+C:\Users\R\Downloads\WPF SteamAccount\SteamAccount\obj\Debug\SteamAccount.exe
